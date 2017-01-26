@@ -9,22 +9,6 @@ You might or might not need these two extra libraries
 */
 
 
-class Card{
-	
-	int suit;
-	int rank;
-	Card(); //default constructor
-	string get_spanish_suit() const;
-	string get_spanish_rank() const;
-	string get_english_suit() const;
-	string get_english_rank() const;
-	int get_rank() const;
-	bool operator < (Card c2) const;
-
-
-	
-};
-
 /*
 Default constructor for the Card class.
 It could give repeated cards. This is OK.
