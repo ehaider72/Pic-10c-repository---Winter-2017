@@ -49,17 +49,17 @@ Card::Card(){
 string Card::get_spanish_suit() const {
 	string suitName;
 	switch (suit) {
-	case OROS:
-		suitName = "oros";
+	case OROS:	
+		suitName = "oros";  // "gold"
 		break;
 	case COPAS:
-		suitName = "copas";
+		suitName = "copas";  // "cups"
 		break;
 	case ESPADAS:
-		suitName = "espadas";
+		suitName = "espadas";  // "swords"
 		break;
 	case BASTOS:
-		suitName = "bastos";
+		suitName = "bastos"; // "clubs"
 		break;
 	default: break;
 	}
