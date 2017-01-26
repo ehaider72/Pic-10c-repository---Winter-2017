@@ -7,6 +7,8 @@
 #include "cards.h"
 using namespace std;
 
+double startingCash = 100; // how much money the player starts with
+double bet = 0;
 
 // Global constants (if any)
 
