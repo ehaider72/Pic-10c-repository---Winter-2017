@@ -1,0 +1,72 @@
+﻿Build started 1/25/2017 11:41:56 PM.
+     1>Project "C:\Users\Emily\Desktop\Emily's REPOOOOSITORY\Pic-10c-repository---Winter-2017\pic10c_assig1\pic10c_assig1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\..\Emily's REPOOOOSITORY\Pic-10c-repository---Winter-2017\pic10c_assig1\cards.cpp" "..\..\..\Emily's REPOOOOSITORY\Pic-10c-repository---Winter-2017\pic10c_assig1\siete_y_medio.cpp"
+         siete_y_medio.cpp
+         cards.cpp
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(12): error C2011: 'Card' : 'class' type redefinition
+                 c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.h(29) : see declaration of 'Card'
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(34): error C2027: use of undefined type 'Card'
+                 c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.h(29) : see declaration of 'Card'
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(34): error C2059: syntax error : ')'
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(34): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(34): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(61): error C2027: use of undefined type 'Card'
+                 c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.h(29) : see declaration of 'Card'
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(61): error C2270: 'get_spanish_suit' : modifiers not allowed on nonmember functions
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(63): error C2065: 'suit' : undeclared identifier
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(63): error C2050: switch expression not integral
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(82): error C2027: use of undefined type 'Card'
+                 c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.h(29) : see declaration of 'Card'
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(82): error C2270: 'get_spanish_rank' : modifiers not allowed on nonmember functions
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(84): error C2059: syntax error : ')'
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(84): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(85): error C2046: illegal case
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(87): error C2043: illegal break
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(88): error C2046: illegal case
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(90): error C2043: illegal break
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(91): error C2046: illegal case
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(93): error C2043: illegal break
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(94): error C2046: illegal case
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(96): error C2043: illegal break
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(97): error C2046: illegal case
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(99): error C2043: illegal break
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(100): error C2046: illegal case
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(102): error C2043: illegal break
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(103): error C2046: illegal case
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(105): error C2043: illegal break
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(106): error C2046: illegal case
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(108): error C2043: illegal break
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(109): error C2046: illegal case
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(111): error C2043: illegal break
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(112): error C2046: illegal case
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(114): error C2043: illegal break
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(115): error C2047: illegal default
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(115): error C2043: illegal break
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(124): error C2027: use of undefined type 'Card'
+                 c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.h(29) : see declaration of 'Card'
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(124): error C2270: 'get_english_suit' : modifiers not allowed on nonmember functions
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(130): error C2027: use of undefined type 'Card'
+                 c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.h(29) : see declaration of 'Card'
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(130): error C2270: 'get_english_rank' : modifiers not allowed on nonmember functions
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(138): error C2027: use of undefined type 'Card'
+                 c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.h(29) : see declaration of 'Card'
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(138): error C2270: 'get_rank' : modifiers not allowed on nonmember functions
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(139): error C2226: syntax error : unexpected type 'std::rank'
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(139): error C2144: syntax error : 'std::rank' should be preceded by '('
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(144): error C2027: use of undefined type 'Card'
+                 c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.h(29) : see declaration of 'Card'
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(144): error C2270: '<' : modifiers not allowed on nonmember functions
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(145): error C2027: use of undefined type 'Card'
+                 c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.h(29) : see declaration of 'Card'
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(145): error C2228: left of '.rank' must have class/struct/union
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(145): error C2143: syntax error : missing ',' before ';'
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(146): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(162): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(162): fatal error C1004: unexpected end-of-file found
+         Generating Code...
+     1>Done Building Project "C:\Users\Emily\Desktop\Emily's REPOOOOSITORY\Pic-10c-repository---Winter-2017\pic10c_assig1\pic10c_assig1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.17

@@ -9,9 +9,21 @@ You might or might not need these two extra libraries
 */
 
 
-/* *************************************************
-Card class
-************************************************* */
+class Card{
+	
+	int suit;
+	int rank;
+	Card(); //default constructor
+	string get_spanish_suit() const;
+	string get_spanish_rank() const;
+	string get_english_suit() const;
+	string get_english_rank() const;
+	int get_rank() const;
+	bool operator < (Card c2) const;
+
+
+	
+};
 
 /*
 Default constructor for the Card class.
@@ -71,34 +83,34 @@ string Card::get_spanish_rank() const {
 	string rankName;
 	switch (rank) {
 	case AS:
-		rankName = "As";
+		rankName = "As"; // one
 		break;
 	case DOS:
-		rankName = "Dos";
+		rankName = "Dos"; // two
 		break;
 	case TRES:
-		rankName = "Tres";
+		rankName = "Tres"; // three
 		break;
 	case CUATRO:
-		rankName = "Cuatro";
+		rankName = "Cuatro";  //four
 		break;
 	case CINCO:
-		rankName = "Cinco";
+		rankName = "Cinco"; //five
 		break;
 	case SEIS:
-		rankName = "Seis";
+		rankName = "Seis";  //six
 		break;
 	case SIETE:
-		rankName = "Siete";
+		rankName = "Siete"; //seven ***********
 		break;
 	case SOTA:
-		rankName = "Sota";
+		rankName = "Sota"; //TEN
 		break;
 	case CABALLO:
-		rankName = "Caballo";
+		rankName = "Caballo"; //eleven
 		break;
 	case REY:
-		rankName = "Rey";
+		rankName = "Rey";  //twelve
 		break;
 	default: break;
 	}
