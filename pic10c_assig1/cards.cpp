@@ -8,7 +8,6 @@ You might or might not need these two extra libraries
 #include <algorithm>
 */
 
-
 /*
 Default constructor for the Card class.
 It could give repeated cards. This is OK.
