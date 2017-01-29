@@ -1,5 +1,6 @@
 /* *************************************
-Ricardo Salazar, February 26, 2015
+Emily Haider, January 27, 2017
+PIC 10C
 
 Interface of a simple Card class
 ************************************* */

@@ -45,16 +45,16 @@ string Card::get_spanish_suit() const {
 	string suitName;
 	switch (suit) {
 	case OROS:	
-		suitName = "oros";  // "gold"
+		suitName = "oros";  
 		break;
 	case COPAS:
-		suitName = "copas";  // "cups"
+		suitName = "copas";  
 		break;
 	case ESPADAS:
-		suitName = "espadas";  // "swords"
+		suitName = "espadas";  
 		break;
 	case BASTOS:
-		suitName = "bastos"; // "clubs"
+		suitName = "bastos"; 
 		break;
 	default: break;
 	}
@@ -105,13 +105,64 @@ string Card::get_spanish_rank() const {
 // Accessor: returns a string with the suit of the card in English 
 // This is just a stub! Modify it to your liking.
 string Card::get_english_suit() const {
-	return "";
+	string engName;
+	switch (suit) {
+	case OROS:
+		engName = "gold";  
+		break;
+	case COPAS:
+		engName = "cups";  
+		break;
+	case ESPADAS:
+		engName = "swords";  
+		break;
+	case BASTOS:
+		engName = "clubs"; 
+		break;
+	default: break;
+	}
+	return engName;
+	
 }
 
 // Accessor: returns a string with the rank of the card in English 
 // This is just a stub! Modify it to your liking.
 string Card::get_english_rank() const {
-	return "";
+	string engRank;
+	switch (rank) {
+	case AS:
+		engRank = "one"; // one
+		break;
+	case DOS:
+		engRank = "two"; // two
+		break;
+	case TRES:
+		engRank = "three"; // three
+		break;
+	case CUATRO:
+		engRank = "four";  //four
+		break;
+	case CINCO:
+		engRank = "five"; //five
+		break;
+	case SEIS:
+		engRank = "six";  //six
+		break;
+	case SIETE:
+		engRank = "seven"; //seven ***********
+		break;
+	case SOTA:
+		engRank = "ten"; //TEN
+		break;
+	case CABALLO:
+		engRank = "eleven"; //eleven
+		break;
+	case REY:
+		engRank = "twelve";  //twelve
+		break;
+	default: break;
+	}
+	return engRank;
 }
 
 

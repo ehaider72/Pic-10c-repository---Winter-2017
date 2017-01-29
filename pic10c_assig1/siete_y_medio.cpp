@@ -8,6 +8,7 @@
 using namespace std;
 
 double startingCash = 100; // how much money the player starts with
+double dealerStart = 900; // how much money the dealer starts with
 double bet = 0;
 
 // Global constants (if any)
