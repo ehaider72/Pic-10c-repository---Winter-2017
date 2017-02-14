@@ -27,7 +27,7 @@ The rank of SOTA is reported as  static_cast<int>(SOTA) + 1 = 9 + 1 = 10
 */
 enum rank_t { AS, DOS, TRES, CUATRO, CINCO, SEIS, SIETE, SOTA = 9, CABALLO = 10, REY = 11 };
 
-class Card {
+class Card {	//keeps track of deck
 public:
 	// Constructor assigns random rank & suit to card.
 	Card();
@@ -47,6 +47,7 @@ public:
 	// Converts card rank to number.
 	// The possible returns are: 1, 2, 3, 4, 5, 6, 7, 10, 11 and 12
 	int get_rank() const;
+	double get_points() const; //gets points associated with a card
 
 	// Compare rank of two cards. E.g: Eight<Jack is true.
 	// Assume Ace is always 1. 
@@ -59,10 +60,10 @@ private:
 };
 
 
-class Hand {
+class Hand {	//keep track of cards in hand 
 public:
 	// A vector of Cards
-	Hand();
+	Hand(); //creates empty vector
 
 	// You decide what functions you'll need...
 
@@ -71,7 +72,7 @@ private:
 };
 
 
-class Player {
+class Player {	//keeps track of money
 public:
 	// Constructor. 
 	//    Assigns initial amount of money

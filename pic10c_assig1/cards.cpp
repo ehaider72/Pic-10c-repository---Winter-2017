@@ -1,6 +1,8 @@
 #include "cards.h"
 #include <cstdlib>
 #include <iostream>
+#include <iomanip>
+
 
 /*
 You might or might not need these two extra libraries
@@ -127,6 +129,52 @@ string Card::get_english_suit() const {
 
 // Accessor: returns a string with the rank of the card in English 
 // This is just a stub! Modify it to your liking.
+double Card::get_points() const {
+	double points = 800;
+	switch (rank) {
+	case AS:
+		points = 1; // one
+		break;
+	case DOS:
+		points = 2; // two
+		break;
+	case TRES:
+		points = 3; // three
+		break;
+	case CUATRO:
+		points = 4;  //four
+		break;
+	case CINCO:
+		points = 5; //five
+		break;
+	case SEIS:
+		points = 6;  //six
+		break;
+	case SIETE:
+		points = 7; //seven ***********
+		break;
+	case SOTA:
+		points = 0.5; //TEN
+		break;
+	case CABALLO:
+		points = 0.5; //eleven
+		break;
+	case REY:
+		points = 0.5;  //twelve
+		break;
+	default: break;
+	}
+	return points;
+}
+
+
+
+// Assigns a numerical value to card based on rank.
+// AS=1, DOS=2, ..., SIETE=7, SOTA=10, CABALLO=11, REY=12
+int Card::get_rank() const {
+	return static_cast<int>(rank)+1;
+}
+
 string Card::get_english_rank() const {
 	string engRank;
 	switch (rank) {
@@ -163,14 +211,7 @@ string Card::get_english_rank() const {
 	default: break;
 	}
 	return engRank;
-}
 
-
-
-// Assigns a numerical value to card based on rank.
-// AS=1, DOS=2, ..., SIETE=7, SOTA=10, CABALLO=11, REY=12
-int Card::get_rank() const {
-	return static_cast<int>(rank)+1;
 }
 
 // Comparison operator for cards
