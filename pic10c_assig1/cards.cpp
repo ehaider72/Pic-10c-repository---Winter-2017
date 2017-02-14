@@ -2,6 +2,7 @@
 #include <cstdlib>
 #include <iostream>
 #include <iomanip>
+#include <vector>
 
 
 /*
@@ -226,6 +227,28 @@ bool Card::operator < (Card card2) const {
 Hand class
 ************************************************* */
 // Implemente the member functions of the Hand class here.
+Hand::Hand(){
+	deckInHand.push_back(Card());
+}
+
+Hand::~Hand(){
+	deckInHand.resize(0);
+}
+
+void Hand::addNewCard(){
+	deckInHand.push_back(Card());
+	return;
+}
+
+double Hand::pointsInHand(){
+	pts = 0;
+	for (int i = 0; i < deckInHand.size(); i++){
+		pts += deckInHand[i].get_points();
+	}
+	return pts;
+}
+
+
 
 
 
@@ -234,3 +257,24 @@ Player class
 ************************************************* */
 // Implemente the member functions of the Player class here.
 
+Player::Player(int m){
+	money = m;
+}
+
+int Player::getMoney(){
+	return money;
+}
+
+void Player::addMoney(int bet){
+	money = money + bet;
+}
+
+void Player::subMoney(int bet){
+		money = money - bet;
+}
+
+bool Player::outOfMoney(){
+	if (money <= 0)
+		return true;
+	else return false;
+}

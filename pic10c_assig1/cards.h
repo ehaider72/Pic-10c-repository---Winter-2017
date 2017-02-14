@@ -64,19 +64,27 @@ class Hand {	//keep track of cards in hand
 public:
 	// A vector of Cards
 	Hand(); //creates empty vector
-
+	~Hand();
+	void addNewCard(); 
+	double pointsInHand();
 	// You decide what functions you'll need...
 
 private:
-	// You decide what fields you'll need...
+	vector<Card> deckInHand;
+	double pts;
 };
 
-
-class Player {	//keeps track of money
+//this class includes both the player and the dealer
+class Player {	//keeps track of money 
 public:
 	// Constructor. 
 	//    Assigns initial amount of money
-	Player(int m);
+	Player(int m); 
+	int getMoney();
+	void addMoney(int bet);
+	void subMoney(int bet);
+	bool outOfMoney();
+
 
 	// You decide what functions you'll need...
 
