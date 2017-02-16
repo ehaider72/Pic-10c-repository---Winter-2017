@@ -53,7 +53,7 @@ In this case a tie is declared and no money is exchanged.
 	{
 		cout << "You have: $" << gambler.getMoney() << ". Enter your bet: ";
 		cin >> bet;
-		while (bet > gambler.getMoney() || bet <= 0){
+		while (bet > gambler.getMoney() && bet <= 0){
 			cout << "\nI'm sorry but your bet exceeds your means. Please enter a bet between 1 and " << startingCash << ": ";
 			cin >> bet;
 			cout << "\n";
