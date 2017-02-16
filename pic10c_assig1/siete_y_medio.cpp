@@ -12,6 +12,8 @@ double dealerStart = 900; // how much money the dealer starts with
 double bet = 0;
 const double loser = 7.5;
 string language = "english";
+Hand gmb; //gambler's hand
+Hand dlr; //dealer's hand
 
 // Global constants (if any)
 
@@ -44,23 +46,25 @@ In this case a tie is declared and no money is exchanged.
 	Player gambler(startingCash);
 	int bet = 0;
 
-	cout << "\nHello young gambler! Thank you for playing Siete y Medio. How much money would you like to bet? ";
-	cin >> bet;
-	while (bet > gambler.getMoney() || bet <= 0){
-		cout << "\nI'm sorry but your bet exceeds your means. Please enter a bet between 1 and " << startingCash << " ";
-		cin >> bet;
-	}
+	cout << "\nHello young gambler! Thank you for playing Siete y Medio. ";
 	
-	cout << "\nOne last question: Would you like to play in Spanish or English? ";
-	cin >> language;
-	while (language != "Spanish" || language != "spanish" || language != "English" || language != "english")
-	{
-		cout << "\nPlease enter a valid language. Would you like to play in English or Spanish? ";
-		cin >> language;
+	//stop the game when the gambler or dealer is out of money
+	while (!gambler.outOfMoney() && !dealer.outOfMoney()) {
+		cout << "You have: $" << gambler.getMoney() << ". Enter your bet: ";
+		cin >> bet;
+		while (bet > gambler.getMoney() || bet <= 0){
+			cout << "\nI'm sorry but your bet exceeds your means. Please enter a bet between 1 and " << startingCash << ": ";
+			cin >> bet;
+			cout << "\n";
+		}
+		cout << "\nYour cards:\n\t" << 
+
+		
+
+		
+
+
 	}
-
-
-
 
 	/* --STATEMENTS-- */
 	return 0;

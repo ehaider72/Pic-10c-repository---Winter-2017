@@ -1,16 +1,23 @@
-﻿Build started 2/14/2017 12:48:33 AM.
+﻿Build started 2/15/2017 9:55:11 PM.
      1>Project "C:\Users\Emily\Desktop\Emily's REPOOOOSITORY\Pic-10c-repository---Winter-2017\pic10c_assig1\pic10c_assig1.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\..\Emily's REPOOOOSITORY\Pic-10c-repository---Winter-2017\pic10c_assig1\siete_y_medio.cpp"
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\..\Emily's REPOOOOSITORY\Pic-10c-repository---Winter-2017\pic10c_assig1\cards.cpp" "..\..\..\Emily's REPOOOOSITORY\Pic-10c-repository---Winter-2017\pic10c_assig1\siete_y_medio.cpp"
          siete_y_medio.cpp
-     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\siete_y_medio.cpp(43): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\siete_y_medio.cpp(44): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Emily\Desktop\Emily's REPOOOOSITORY\Pic-10c-repository---Winter-2017\pic10c_assig1\Debug\pic10c_assig1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Emily\Desktop\Emily's REPOOOOSITORY\Pic-10c-repository---Winter-2017\pic10c_assig1\Debug\pic10c_assig1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Emily\Desktop\Emily's REPOOOOSITORY\Pic-10c-repository---Winter-2017\pic10c_assig1\Debug\pic10c_assig1.lib" /MACHINE:X86 Debug\cards.obj
-         Debug\siete_y_medio.obj
-         pic10c_assig1.vcxproj -> C:\Users\Emily\Desktop\Emily's REPOOOOSITORY\Pic-10c-repository---Winter-2017\pic10c_assig1\Debug\pic10c_assig1.exe
-     1>Done Building Project "C:\Users\Emily\Desktop\Emily's REPOOOOSITORY\Pic-10c-repository---Winter-2017\pic10c_assig1\pic10c_assig1.vcxproj" (Build target(s)).
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.h(83): error C2524: 'Player' : a destructor must have a 'void' parameter list
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\siete_y_medio.cpp(45): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\siete_y_medio.cpp(45): error C2660: 'Player::~Player' : function does not take 0 arguments
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\siete_y_medio.cpp(46): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\siete_y_medio.cpp(46): error C2660: 'Player::~Player' : function does not take 0 arguments
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\siete_y_medio.cpp(67): error C2059: syntax error : '}'
+         cards.cpp
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.h(83): error C2524: 'Player' : a destructor must have a 'void' parameter list
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(245): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(264): error C2084: function 'Player::Player(int)' already has a body
+                 c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.h(82) : see previous definition of '{ctor}'
+     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(265): error C2541: 'delete' : cannot delete objects that are not pointers
+         Generating Code...
+     1>Done Building Project "C:\Users\Emily\Desktop\Emily's REPOOOOSITORY\Pic-10c-repository---Winter-2017\pic10c_assig1\pic10c_assig1.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:01.00
+Time Elapsed 00:00:00.60

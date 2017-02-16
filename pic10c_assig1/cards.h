@@ -80,6 +80,7 @@ public:
 	// Constructor. 
 	//    Assigns initial amount of money
 	Player(int m); 
+	~Player(int m);
 	int getMoney();
 	void addMoney(int bet);
 	void subMoney(int bet);
