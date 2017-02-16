@@ -49,7 +49,7 @@ In this case a tie is declared and no money is exchanged.
 	cout << "\nHello young gambler! Thank you for playing Siete y Medio. ";
 	
 	//stop the game when the gambler or dealer is out of money
-	while (!gambler.outOfMoney() && !dealer.outOfMoney())
+	while (!gambler.outOfMoney() || !dealer.outOfMoney())
 	{
 		cout << "You have: $" << gambler.getMoney() << ". Enter your bet: ";
 		cin >> bet;
