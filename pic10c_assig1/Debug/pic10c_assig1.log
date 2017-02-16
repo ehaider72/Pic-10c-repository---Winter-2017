@@ -1,4 +1,4 @@
-﻿Build started 2/15/2017 9:55:11 PM.
+﻿Build started 2/15/2017 9:58:44 PM.
      1>Project "C:\Users\Emily\Desktop\Emily's REPOOOOSITORY\Pic-10c-repository---Winter-2017\pic10c_assig1\pic10c_assig1.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\..\Emily's REPOOOOSITORY\Pic-10c-repository---Winter-2017\pic10c_assig1\cards.cpp" "..\..\..\Emily's REPOOOOSITORY\Pic-10c-repository---Winter-2017\pic10c_assig1\siete_y_medio.cpp"
@@ -12,12 +12,10 @@
          cards.cpp
      1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.h(83): error C2524: 'Player' : a destructor must have a 'void' parameter list
      1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(245): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(264): error C2084: function 'Player::Player(int)' already has a body
-                 c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.h(82) : see previous definition of '{ctor}'
      1>c:\users\emily\desktop\emily's repoooository\pic-10c-repository---winter-2017\pic10c_assig1\cards.cpp(265): error C2541: 'delete' : cannot delete objects that are not pointers
          Generating Code...
      1>Done Building Project "C:\Users\Emily\Desktop\Emily's REPOOOOSITORY\Pic-10c-repository---Winter-2017\pic10c_assig1\pic10c_assig1.vcxproj" (Build target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:00.60
+Time Elapsed 00:00:00.54

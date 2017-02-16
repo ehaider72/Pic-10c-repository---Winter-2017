@@ -261,7 +261,7 @@ Player::Player(int m){
 	money = m;
 }
 
-Player::Player(int m){
+Player::~Player(int m){
 	delete m;
 }
 
