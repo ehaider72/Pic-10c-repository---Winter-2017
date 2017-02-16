@@ -274,7 +274,7 @@ void Player::subMoney(int bet){
 }
 
 bool Player::outOfMoney(){
-	if (money <= 0)
+	if (money < 0)
 		return true;
 	else return false;
 }
