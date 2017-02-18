@@ -1,7 +1,5 @@
 # Pic-10c-repository---Winter-2017
-This repository contains:
--Assignment 1
--Final Project
+This repository contains: 1) "Assignment 1" 2) "Final Project"
 
 ------------------------------------------------------------------------------------------------------------
 EMILY HAIDER PIC 10C ASSIGNMENT 1
