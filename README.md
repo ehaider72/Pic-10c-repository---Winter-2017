@@ -2,7 +2,7 @@
 This repository contains: 1) "Assignment 1" 2) "Final Project"
 
 ------------------------------------------------------------------------------------------------------------
-EMILY HAIDER PIC 10C ASSIGNMENT 1
+1) EMILY HAIDER PIC 10C ASSIGNMENT 1
 Siete y Medio
 
 
@@ -21,7 +21,7 @@ Value:  	1 	2 	3 	4 	5 	6 	7 	1/2 	1/2 	1/2
 The player starts with 100 pesos (or dollars) and the game ends when the player is down to 0 or when the dealer loses 900. 
  
  ------------------------------------------------------------------------------------------------------------
- EMILY HAIDER PIC 10C FINAL PROJECT
+ 2) EMILY HAIDER PIC 10C FINAL PROJECT
  Audio Visualization
  
  My current plan is to input an audio file and project an image representation of the audiowaves produced by the song.
